@@ -1,0 +1,141 @@
+
+body{
+    margin: 0;
+    margin: 0;
+}
+header{
+    text-align: center;
+    background: black;
+    color: white;
+}
+header h1{
+    margin: 0;
+    padding: 0;
+}
+header strong{
+    text-transform: uppercase;
+    font-size: 38px;
+}
+header a{
+    text-decoration: none;
+    font-size: 13px;
+    color: seagreen;
+}
+
+header a:hover{
+    color: #2d2dc8;
+}
+
+nav{
+    border-bottom: 1px solid #ccc7c7;
+}
+nav ul{
+    margin: 0;
+    text-align: center;
+    padding: 0;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 11px;
+    display: block;
+    color: #a38d8d;
+}
+nav ul li a:hover{
+    color: #2e0808;
+}
+
+.businessSection{
+    text-align: center;
+}
+.businessSection h2{
+	margin: 0 auto;
+	padding: 44px 0 0 0;
+	font-size: 40px;
+}
+.businessSection p{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 55px;
+}
+.LeftsideContainer{
+    width: 300px;
+    float: left;
+}
+.RightsideContainer{
+    width: 70%;
+    float: left;
+}
+
+
+.pic{
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.pic img{
+    width: 100%;
+    height: 220px;
+}
+.pic p{
+    margin: 0;
+    padding: 0;
+}
+
+
+.LeftsideContainer ul{
+    margin: 0;
+    padding: 0;
+}
+.LeftsideContainer ul li{
+    list-style: none;
+}
+.LeftsideContainer ul li a{
+    text-decoration: none;
+    padding: 2px;
+    display: block;
+    color: gray;
+}
+.LeftsideContainer ul li a:hover{
+    color: #6d6da8;
+}
+
+.footerbackgroundarea{
+    background: #e6dede;
+    padding: 31px 0;
+    margin: 55px 0;
+}
+.footercontainer{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.leftsidefootercontainer{
+    float: left;
+    width: 300.33px;
+    padding: 16px;
+}
+.leftsidefootercontainer h3{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.leftsidefootercontainer strong{
+    font-weight: bold;
+}
+.leftsidefootercontainer p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
